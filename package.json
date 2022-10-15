@@ -33,6 +33,4 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "http://test-seo-gyn.vercel.app"
-}
+  }}

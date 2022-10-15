@@ -54,28 +54,6 @@ const Home = () => {
                     ) // loading end
                 ) : null
             }
-
-
-            {/*  
-            <div className="container">
-                <div className="MainKeyword">
-                    <Keywords />
-                    <div className="keyword__more">
-                        <UsedPages />
-                        <Instakeyword />
-                    </div>
-                </div>
-            </div>
-            
-
-            <div className="container">
-                <Report />
-                <div className="search_main">
-                    <WebKeyword />
-                    <Subdomain />
-                </div>
-            </div>
-            */}
         </div>
     )
 }

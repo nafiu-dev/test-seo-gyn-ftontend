@@ -17,17 +17,17 @@ const Keywords = () => {
                         token ? (
                             <ul>
                                 {
-                                    keywords.map((value,index) => {
+                                    keywords ? keywords.map((value,index) => {
                                         return <li key={index}>{value}</li>
-                                    }) 
+                                    }) : null
                                 }
                             </ul>
                         ): (
                             <ul>
                                 {
-                                    keywords.slice(0, 11).map((value,index) => {
+                                    keywords ? keywords.slice(0, 11).map((value,index) => {
                                         return <li key={index}>{value}</li>
-                                    }) 
+                                    }) : null
                                 }
                                 <li className="sign_in__load"><Link to="/sign-in"> <span>sign in</span> to load more </Link>  </li>
                             </ul>

@@ -17,17 +17,17 @@ const Instakeyword = () => {
                     token ? (
                         <ul>
                             {
-                                instakeywords.map((value, index) => {
+                                instakeywords ? instakeywords.map((value, index) => {
                                     return <li key={index}>{value}</li>
-                                })
+                                }) : null
                             }
                         </ul>
                     ) :(
                         <ul>
                             {
-                                instakeywords.slice(0, 6).map((value, index) => {
+                                instakeywords ? instakeywords.slice(0, 6).map((value, index) => {
                                     return <li key={index}>{value}</li>
-                                })
+                                }) : null
                             }
                             <li className="sign_in__load"><Link to="/sign-in"> <span>sign in</span> to load more </Link>  </li>
                         </ul>

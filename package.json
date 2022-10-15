@@ -34,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://test-seo-gyn.vercel.app"
+  "proxy": "http://test-seo-gyn.vercel.app"
 }

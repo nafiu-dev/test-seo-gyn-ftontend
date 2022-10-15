@@ -19,7 +19,7 @@ const Instakeyword = () => {
                             {
                                 instakeywords ? instakeywords.map((value, index) => {
                                     return <li key={index}>{value}</li>
-                                }) : null
+                                }) : []
                             }
                         </ul>
                     ) :(
@@ -27,7 +27,7 @@ const Instakeyword = () => {
                             {
                                 instakeywords ? instakeywords.slice(0, 6).map((value, index) => {
                                     return <li key={index}>{value}</li>
-                                }) : null
+                                }) : []
                             }
                             <li className="sign_in__load"><Link to="/sign-in"> <span>sign in</span> to load more </Link>  </li>
                         </ul>
